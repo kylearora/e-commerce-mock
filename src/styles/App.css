@@ -1,0 +1,221 @@
+header {
+  font-family: noteworthy;
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-color: #222222;
+}
+
+footer {
+  font-family: noteworthy;
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+  color: white;
+}
+
+.title{
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.NavLink {
+  font-size: 22px;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  font-family: noteworthy;
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+  padding-top: 1em;
+}
+
+.mainImage {
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/45/ff/5c/45ff5c1765f453edfd0b48e3bd24e881.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.mainImage div {
+  font-family: fantasy;
+  text-align: center;
+  margin-top: -8em;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.aboutDiv {
+  background-color:silver;
+  background-image:
+  radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+  height: 655px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutText {
+  height: 100px;
+  width: 750px;
+  margin-top: 3em;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.accessoriesDiv {
+  background-color:silver;
+  background-image:
+  radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+  height: 655px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.snowboardsDiv {
+  background-color:silver;
+  background-image:
+  radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+  height: 655px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.skiisDiv {
+  background-color:silver;
+  background-image:
+  radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+  height: 655px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.contactDiv {
+  background-color:silver;
+  background-image:
+  radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+  height: 655px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+form {
+  width: 500px;
+  margin-top: .5em;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.nameInput {
+  width: 497px;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.emailInput {
+  width: 497px;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.submitButton {
+  font-family: futura;
+  font-size: 18px;
+  background-color: #50C7EB;
+  color: white;
+  margin-top: 8px;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.submitButton:hover {
+  color: white;
+  background-color: #3AEB7A;
+}
