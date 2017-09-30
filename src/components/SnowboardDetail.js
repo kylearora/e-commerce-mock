@@ -1,18 +1,20 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
-import Helmet from "react-helmet"
 import snowboards from '../data/snowboards'
+console.log(snowboards)
 
-class Snowboards extends Component {
+class SnowboardDetail extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      item: [this.props.match.params.id]
+    }
+  }
   render() {
     return (
     <div className="itemSection" >
-      <Helmet>
-        <title>Snowboards</title>
-      </Helmet>
-    {snowboards.map(snowboard =>{
+    {this.state.item.map(snowboard =>{
+      console.log(snowboard.name)
       return (
-        <Link className="detailLink" to={`/snowboards/${snowboard.id}`} key={snowboard.id}>
         <div className="itemDiv" >
             <img className="itemImage" src={snowboard.img_url} alt=""/>
             <div className="detailDiv">
@@ -20,9 +22,9 @@ class Snowboards extends Component {
               <div className="detail">Price: ${snowboard.price}</div>
               <div className="detail">Type: {snowboard.type}</div>
               <div className="detail">Year: {snowboard.year} </div>
+              <div className="detail">{snowboard.description}</div>
             </div>
         </div>
-        </Link>
         )
       })
     }
@@ -31,4 +33,5 @@ class Snowboards extends Component {
   }
 }
 
-export default Snowboards
+
+export default SnowboardDetail

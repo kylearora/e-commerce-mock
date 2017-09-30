@@ -1,9 +1,13 @@
 import React, {Component} from 'react'
+import Helmet from "react-helmet"
 
 class Contact extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Contact</title>
+        </Helmet>
       <div className="contactDiv">
         <form action="">
 
@@ -22,14 +26,11 @@ class Contact extends Component {
             <textarea name="" id="" cols="80" rows="10"></textarea>
           </div>
 
-          <div>
+          <div className="submitButtonDiv">
             <button className="submitButton" type="submit">Submit</button>
           </div>
         </form>
       </div>
-      <footer>
-        <h1>Thanks for shopping with us!</h1>
-      </footer>
     </div>
     )
   }
