@@ -9,7 +9,7 @@ const snowboards = [
     "img_url": "https://images.evo.com/imgp/zoom/121659/519271/yes-typo-snowboard-2018-149.jpg",
 },{
     "id": 2,
-    "name": "CAPITA SCOTT STEVENS PRO SNOWBOARD",
+    "name": "CAPITA SCOTT STEVENS PRO",
     "price": 499.99,
     "year": "2018",
     "type": "Camber",
@@ -17,7 +17,7 @@ const snowboards = [
     "img_url": "https://images.evo.com/imgp/zoom/121486/517195/capita-scott-stevens-pro-snowboard-2018-151.jpg",
 },{
     "id": 3,
-    "name": "BATALEON EVIL TWIN SNOWBOARD",
+    "name": "BATALEON EVIL TWIN",
     "price": 499.99,
     "year": "2018",
     "type": "Camber",
@@ -25,7 +25,7 @@ const snowboards = [
     "img_url": "https://images.evo.com/imgp/zoom/121357/518101/clone.jpg",
 },{
     "id": 4,
-    "name": "YES. JACKPOT SNOWBOARD",
+    "name": "YES. JACKPOT",
     "price": 479.99,
     "year": "2018",
     "type": "Camber/Rocker/Camber",
@@ -33,7 +33,7 @@ const snowboards = [
     "img_url": "https://images.evo.com/imgp/zoom/121660/519279/clone.jpg",
 },{
     "id": 5,
-    "name": "YES. GREATS SNOWBOARD",
+    "name": "YES. GREATS",
     "price": 549.00,
     "year": "2018",
     "type": "Camber/Rocker/Camber",
@@ -41,7 +41,7 @@ const snowboards = [
     "img_url": "https://images.evo.com/imgp/zoom/121663/519288/yes-greats-snowboard-2018-152.jpg",
 },{
     "id": 6,
-    "name": "CAPITA THE OUTSIDERS SNOWBOARD",
+    "name": "CAPITA THE OUTSIDERS",
     "price": 459.95,
     "year": "2018",
     "type": "Flat/Camber/Flat",

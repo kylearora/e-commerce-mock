@@ -1,33 +1,34 @@
 import React, {Component} from 'react'
 import snowboards from '../data/snowboards'
+import Helmet from "react-helmet"
 console.log(snowboards)
+
 
 class SnowboardDetail extends Component {
   constructor(props) {
     super(props)
+    console.log(props)
     this.state = {
-      item: [this.props.match.params.id]
+      snowboardItem: [snowboards[this.props.match.params.id - 1]]
     }
   }
   render() {
+    console.log(this.state.snowboardItem)
     return (
     <div className="itemSection" >
-    {this.state.item.map(snowboard =>{
-      console.log(snowboard.name)
-      return (
-        <div className="itemDiv" >
-            <img className="itemImage" src={snowboard.img_url} alt=""/>
+      <Helmet>
+        <title>{this.state.snowboardItem[0].name}</title>
+      </Helmet>
+        <div className="itemDetailDiv">
+            <img className="itemDetailImage" src={this.state.snowboardItem[0].img_url} alt=""/>
             <div className="detailDiv">
-              <div className="detail">Name: {snowboard.name} </div>
-              <div className="detail">Price: ${snowboard.price}</div>
-              <div className="detail">Type: {snowboard.type}</div>
-              <div className="detail">Year: {snowboard.year} </div>
-              <div className="detail">{snowboard.description}</div>
+              <div className="itemDetailName">{this.state.snowboardItem[0].name} </div>
+              <div className="itemDetail">${this.state.snowboardItem[0].price}</div>
+              <div className="itemDetail">Type: {this.state.snowboardItem[0].type}</div>
+              <div className="itemDetail">Year: {this.state.snowboardItem[0].year} </div>
+              <div className="itemDetail"> {this.state.snowboardItem[0].description}</div>
             </div>
         </div>
-        )
-      })
-    }
     </div>
     )
   }

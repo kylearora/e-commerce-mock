@@ -22,6 +22,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 8vh;
+  border-bottom: 2px solid white;
   background-color: #222222;
 }
 
@@ -31,6 +32,7 @@ footer {
   justify-content: center;
   background-color: #222222;
   color: white;
+  border-top: 2px solid white;
 }
 
 .title{
@@ -61,12 +63,11 @@ i {
 }
 
 .mainImage {
-  border-top: 2px solid white;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 500px;
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/45/ff/5c/45ff5c1765f453edfd0b48e3bd24e881.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,9 +97,7 @@ i {
   margin-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
-
 }
-
 
 .itemDiv{
   border: 1px solid black;
@@ -135,6 +134,39 @@ i {
 .detailLink {
   text-decoration: none;
   color: white
+}
+
+.itemDetailDiv {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1em 1em;
+  width: 950px;
+  height: 375px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.itemDetailName {
+  color: white;
+  font-size: 25px;
+}
+
+.itemDetailImage {
+  width: 350px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.itemDetail {
+  width: 500px;
+  margin-top: 5px;
+  color: white;
+  margin-top: 25px;
 }
 
 .aboutDiv {
